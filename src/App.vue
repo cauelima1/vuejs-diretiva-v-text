@@ -1,17 +1,22 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Ola Mundo!" />
+    <NovoComponente texto="A diretiva v-text permite a
+    apresentacao de textos, tal como ocorre quando usamos diretivas diretas." />
   </div>
 </template>
 
 <script>
+
 import HelloWorld from './components/HelloWorld.vue'
+import NovoComponente from "./components/NovoComponente"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    NovoComponente
   }
 }
 </script>
